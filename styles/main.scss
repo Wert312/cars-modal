@@ -57,7 +57,6 @@ html, body {
     max-width: 273px;
     display: flex;
     gap: 20px;
-    width: fit-content;
     text-align: center;
     font-family: 'Druk', sans-serif;
     line-height: normal;
@@ -65,7 +64,7 @@ html, body {
     color: white;
 
     @include for-tablet {
-      max-width: 650px;
+      max-width: 700px;
       font-size: 32px !important;
       justify-content: center;
     }
