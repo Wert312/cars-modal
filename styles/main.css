@@ -47,13 +47,13 @@ html, body {
   margin: 20px 20px 8px;
 }
 .cars-modal__header {
-  font-size: 2em !important;
+  font-size: 26px !important;
   max-width: 273px;
   display: flex;
   gap: 20px;
   width: fit-content;
   text-align: center;
-  font-family: "Druk", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: normal;
   text-transform: uppercase;
   color: white;
