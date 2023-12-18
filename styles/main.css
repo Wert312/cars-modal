@@ -65,6 +65,9 @@ html, body {
     justify-content: center;
   }
 }
+.cars-modal__header-title {
+  margin: 0;
+}
 .cars-modal__subheader {
   display: flex;
   justify-content: center;
