@@ -21,7 +21,7 @@ html, body {
   height: 100%;
   max-height: 600px;
   min-height: 600px;
-  background: #4c4a95 url("../assets/image-mob.png") no-repeat center bottom;
+  background: #4c4a95 url("../assets/image-mob.webp") no-repeat center bottom;
   background-size: cover;
   border-radius: 16px;
   margin: 0 14px;
