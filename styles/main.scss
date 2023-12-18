@@ -12,6 +12,7 @@ html, body {
   height: 100%;
   flex-grow: 1;
   justify-content: center;
+  -webkit-text-size-adjust: 100%
 }
 
 .cars-modal {
@@ -66,6 +67,7 @@ html, body {
     @include for-tablet {
       max-width: 650px;
       font-size: 32px;
+      justify-content: center;
     }
   }
 

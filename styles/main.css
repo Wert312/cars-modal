@@ -10,6 +10,7 @@ html, body {
   height: 100%;
   flex-grow: 1;
   justify-content: center;
+  -webkit-text-size-adjust: 100%;
 }
 
 .cars-modal__wrapper {
@@ -61,6 +62,7 @@ html, body {
   .cars-modal__header {
     max-width: 650px;
     font-size: 32px;
+    justify-content: center;
   }
 }
 .cars-modal__subheader {
