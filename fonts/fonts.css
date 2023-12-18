@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Druk";
+  src: url("../fonts/druktextwidecyr-bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/*# sourceMappingURL=fonts.css.map */

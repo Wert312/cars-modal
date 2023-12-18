@@ -1,0 +1,187 @@
+@import "../fonts/fonts.css";
+@import "../styles/mixins.scss";
+@import "../styles/normalize.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.cars-modal {
+  &__wrapper {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-height: 600px;
+    min-height: 600px;
+    background: #4c4a95 url('../assets/image-mob.png') no-repeat center bottom;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 0 14px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 21px;
+      top: 8px;
+      width: 23px;
+      right: 7px;
+      background: url(../assets/icons/cross.svg) no-repeat;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 20px 20px 8px;
+  }
+
+  &__header {
+    font-size: 26px;
+    max-width: 273px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Druk', sans-serif;
+    line-height: normal;
+    text-transform: uppercase;
+    color: white;
+
+    @include for-tablet {
+      max-width: 650px;
+      font-size: 32px;
+    }
+  }
+
+  &__subheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 440px;
+    height: 34px;
+    margin: 10px 0 12px;
+    text-align: center;
+    color: #fff;
+    background: rgb(2,23,89);
+    background: linear-gradient(0deg, rgba(2,23,89,1) 0%, rgba(2,1,36,1) 100%);
+    border-radius: 8px;
+    font-weight: 700;
+    font-family: 'Druk', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+
+    @include for-tablet {
+      font-size: 20px;
+      height: 39px;
+      margin: 10px 0 16px;
+    }
+  }
+
+  &__description {
+    color: #383838;
+    max-width: 324px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 26px;
+    line-height: normal;
+
+    @include for-tablet {
+      max-width: 618px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__form {
+    padding: 0 5px;
+    @include for-tablet {
+      display: flex;
+      gap: 8px;
+      width: 100%;
+    }
+
+    &-input {
+      display: inline-block;
+      height: 56px;
+      width: 100%;
+      color: #021451;
+      font-family: Montserrat, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: left;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      padding: 0.375rem 0.75rem;
+      border-radius: 0.5rem;
+      background: #fff;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      margin-bottom: 8px;
+
+      &::placeholder {
+        color: #021451;
+      }
+    }
+
+    &-btn {
+      display: inline-block;
+      height: 56px;
+      width: 100%;
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      font-family: 'Montserrat', sans-serif;
+      line-height: normal;
+      padding: 0.375rem 0.75rem;
+      border-radius: 0.5rem;
+      border: none;
+      color: #fff;
+      background: rgb(51,100,255);
+      background: linear-gradient(90deg, rgba(51,100,255,1) 0%, rgba(5,0,250,1) 100%);
+      box-sizing: border-box;
+    }
+  }
+
+  &__limit {
+    display: flex;
+    margin: auto 0 0;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+  }
+}
