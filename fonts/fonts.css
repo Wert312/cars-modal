@@ -6,9 +6,8 @@
 }
 @font-face {
   font-family: "Druk";
-  src: url("../fonts/Benzin-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
+  src: url("../fonts/Benzin-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Benzin-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Benzin-Bold.woff2") format("woff2"), url("../fonts/Benzin-Bold.woff") format("woff"), url("../fonts/Benzin-Bold.ttf") format("truetype");
 }
 
 
