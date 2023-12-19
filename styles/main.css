@@ -52,7 +52,7 @@ html, body {
   display: flex;
   gap: 20px;
   text-align: center;
-  font-family: "Benzin", sans-serif;
+  font-family: "Druk", sans-serif;
   line-height: normal;
   text-transform: uppercase;
   color: white;
@@ -82,7 +82,7 @@ html, body {
   background: linear-gradient(0deg, rgb(2, 23, 89) 0%, rgb(2, 1, 36) 100%);
   border-radius: 8px;
   font-weight: 700;
-  font-family: "Benzin", sans-serif;
+  font-family: "Druk", sans-serif;
   font-size: 13px;
   line-height: 25px;
 }
