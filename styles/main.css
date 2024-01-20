@@ -21,7 +21,7 @@ html, body {
   height: 100%;
   max-height: 600px;
   min-height: 600px;
-  background: #848482 url("../assets/novelty-modal-bg.png") no-repeat center bottom;
+  background: #848482 url("../assets/novelty-modal-bg.webp") no-repeat center bottom;
   background-size: contain;
   border-radius: 16px;
   margin: 0 14px;
