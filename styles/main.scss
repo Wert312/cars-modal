@@ -49,14 +49,14 @@ html, body {
     height: 100%;
     border-radius: 16px;
     overflow: hidden;
-    margin: 25px 18px 8px;
+    margin: 20px 18px 8px;
 
     @include for-tablet {
       margin: 15px 20px 8px;
     }
 
     @include for-desktop {
-      margin: 30px 24px 8px;
+      margin: 15px 24px 8px;
     }
   }
 

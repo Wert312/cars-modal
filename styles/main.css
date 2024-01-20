@@ -47,7 +47,7 @@ html, body {
   height: 100%;
   border-radius: 16px;
   overflow: hidden;
-  margin: 25px 18px 8px;
+  margin: 20px 18px 8px;
 }
 @media (min-width: 768px) {
   .novelty-modal__content {
@@ -56,7 +56,7 @@ html, body {
 }
 @media (min-width: 992px) {
   .novelty-modal__content {
-    margin: 30px 24px 8px;
+    margin: 15px 24px 8px;
   }
 }
 .novelty-modal__close-btn {
