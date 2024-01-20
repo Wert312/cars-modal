@@ -1,3 +1,13 @@
+@mixin for-mobile {
+  @media (min-width: 355px) {
+    @content;
+  }
+}
+@mixin for-mobile-xl {
+  @media (min-width: 425px) {
+    @content;
+  }
+}
 @mixin for-tablet {
   @media (min-width: 768px) {
     @content;
